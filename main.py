@@ -17,7 +17,7 @@ app.add_middleware(
 # de entorno MONGO_URI, tanto en local como en Render.
 client = MongoClient(os.environ["MONGO_URI"])
 # Cambie por el nombre de su base de datos (el mismo de su usuario, ej. ISIS2304E...)
-db = client["ISIS_________"]
+db = client["ISIS2304A30202620"]
 
 
 @app.get("/")
